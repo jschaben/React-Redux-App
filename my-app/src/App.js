@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import './App.css';
+import './App.scss';
 
 import {getFact} from "./actions/actions";
 import {connect} from "react-redux";

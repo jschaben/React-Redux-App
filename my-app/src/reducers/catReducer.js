@@ -18,7 +18,7 @@ export const catReducer = (state = initialState, action) => {
             return {
                 ...state,
                 catFact: action.payload,
-                catCount: (state.catCount =+1),
+                catCount: (state.catCount += 1),
                 error: ""
             };
         case FETCH_DATA_FAIL:
